@@ -1,0 +1,95 @@
+@import '../global/global.css';
+@import '../global/header.css';
+@import '../global/style.css';
+@import '../global/utilitario.css';
+
+.container-grid{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container-product{
+  
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 6px;
+
+}
+
+.image-container{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  border-bottom: 1px solid ;
+}
+
+.image-product{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.info-product{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+#price-product{
+  color: #0CAF1D;
+  font-size: 3vmin;
+}
+
+#name-product{
+  color: #636363;
+  font-size: 2vmin;
+}
+
+#desc-product{
+  color: #636363;
+  font-size: 1.5vmin;
+}
+
+#tags-product{
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+#tags-product p{
+  padding: 8px 16px;
+  background-color: #636363;
+  border-radius: 6px;
+  font-size: 1.5vmin;
+}
+
+.cta-action-product{
+  width: 30%;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.cta-action-product button{
+  padding: 20px 100px ;
+  border-style: none;
+  font-size: 2.0vmin;
+  border-radius: 6px;
+}
+
+.buy-button{
+  background-color: #3483FA;
+  color: white;
+}
+
+.home-button{
+  background-color: white;
+  color: #3483FA;
+}

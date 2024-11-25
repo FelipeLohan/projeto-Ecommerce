@@ -1,7 +1,5 @@
-@import '../global/global.css';
-@import '../global/header.css';
 @import '../global/style.css';
-@import '../global/utilitario.css';
+
 
 .container-grid{
   display: flex;

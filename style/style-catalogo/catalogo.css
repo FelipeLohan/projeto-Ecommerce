@@ -1,0 +1,86 @@
+@import '../global/style.css';
+
+/* SEARCH BAR */
+
+.search-container{
+  width: 100%;
+  display: flex;
+  padding: 40px 60px;
+
+}
+
+.search-itens{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.search-itens input{
+  padding: 20px;
+  border: none;
+  width: 100%;
+}
+
+.search-itens button{
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* CATALOGO */
+
+.product-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px 60px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.product-img{
+  border-bottom: solid 1.5px #c2c2c2;
+  padding: 5px;
+}
+
+.product-details{
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.product-price{
+  color: #0CAF1D;
+  font-size: 2.5vmin
+}
+
+.product-desc{
+  font-size: 2vmin;
+}
+
+/* LOAD MORE */
+
+.cta-button-more{
+  width: 100%;
+  padding: 40px 60px;
+  
+}
+
+.cta-button-more button{
+  width: 100%;
+  padding: 10px 0;
+  border: solid 2px #3483FA;
+  border-radius: 6px;
+  color: #3483FA;
+  background-color: #e8e8e8;
+  font-size: 3vmin;
+}

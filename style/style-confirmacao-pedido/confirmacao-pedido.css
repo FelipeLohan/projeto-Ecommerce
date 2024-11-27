@@ -1,0 +1,89 @@
+@import '../global/style.css';
+
+.card-container{
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.card-item{
+  display: flex;
+  padding: 20px;
+  border-bottom: solid 1.5px #D9D9D9;
+}
+
+.item-info{
+  display: flex;
+}
+
+.item-image{
+  width: 10%;
+}
+
+.item-desc{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.item-quantity{
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.item-quantity button{
+  padding: 2px;
+  font-size: 3.5vmin;
+  background-color: #fff;
+  border: none;
+  color: #3483FA;
+}
+
+.item-price{
+  color: #0CAF1D;
+  font-size: 3vmin;
+}
+
+.name-item{
+  font-size: 2.5vmin;
+  color: #636363;
+}
+
+.item-total{
+  padding: 20px;
+  font-size: 3vmin;
+  color: #636363;
+}
+
+.item-total strong{
+  color: #0CAF1D;
+}
+
+.cta-action-product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+  width: 100%
+}
+
+.cta-action-product button{
+  font-size: 3vmin;
+  padding: 20px;
+  width: 30%;
+  border-radius: 6px;
+}
+
+.cta-action-product p{
+  font-size: 4vmin;
+  color: #636363;
+}
+
+.home-button{
+  background-color: white;
+  color: #3483FA;
+  border: solid 1.5px #3483FA;
+}

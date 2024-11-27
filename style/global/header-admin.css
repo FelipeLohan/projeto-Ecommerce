@@ -1,0 +1,45 @@
+.header-client{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #0CAF1D;
+}
+
+.header-client h1{
+  align-self: center;
+  font-size: 3.5vmin;
+  color: #fff;
+}
+
+.header-options-container{
+  display: flex;
+  gap: 20px;
+}
+
+.option-element{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.option-product{
+  margin-right: 20px;
+}
+
+.option-user-info{
+  flex-direction: column;
+  align-items: end;
+}
+
+.header-client a{
+  font-size: 2.5vmin;
+  color: #fff;
+}
+
+.header-client p{
+  color: #fff;
+}
+
+.header-client img{
+  width: 3vmin;
+}
+

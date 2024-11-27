@@ -1,0 +1,18 @@
+:root {
+  /* Fonte Principal */
+  --fonte-principal: "Roboto", sans-serif;
+  --fonte-secundaria: "Arial", sans-serif;
+
+  /* Tamanhos de Fonte com clamp() */
+  --font-sm: clamp(14px, 2vw + 1rem, 18px);
+  --font-md: clamp(10px, 1.5vw + 0.5rem, 12px);
+  --font-lg: clamp(20px, 3vw + 1rem, 28px);
+  --font-title: clamp(24px, 4vw + 2rem, 36px);
+
+  /* Cores principais e secundarias */
+  --header-color: #ffe500;
+  --p-color: #636363;
+  --btn-primary: #3483fa;
+  --placeholder-color: #bdbdbd;
+  --price-color: #0caf1d;
+}

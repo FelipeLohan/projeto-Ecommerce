@@ -1,0 +1,7 @@
+@import "../global/style-admin.css";
+
+h2 {
+  padding: 0 40px;
+  font-size: var(--font-lg);
+  color: var(--p-color);
+}

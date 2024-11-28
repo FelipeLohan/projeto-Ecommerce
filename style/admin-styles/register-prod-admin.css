@@ -1,0 +1,107 @@
+@import '../global/style-admin.css';
+
+.register-product-container{
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.register-product-container h2{
+  font-size: var(--font-lg);
+  color: var(--p-color);
+}
+
+.register-product-container button{
+  padding: 10px 6%;
+  font-size: var(--font-md);
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--btn-primary);
+  border: 1px solid;
+}
+
+/* SEARCH INPUT */
+
+.search-container{
+  width: 100%;
+  display: flex;
+  padding: 20px 40px;
+
+}
+
+.search-itens{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.search-itens input{
+  padding: 20px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.search-itens button{
+  padding: 5px;
+  border: none;
+}
+
+
+
+
+/* Table container */
+
+.products-table-container{
+  background-color: #fff;
+  margin: 0 40px;
+
+}
+
+.product-registered{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--placeholder-color);
+}
+
+.product-details{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.product-details p{
+  font-size: var(--font-md);
+  color: var(--p-color);
+}
+
+.product-details img{
+  width: 10%;
+  display: inline-block;
+}
+
+.edit-delete{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.edit-delete img{
+  width: 3vmin;
+}
+
+.cta-load-more{
+  padding: 15px 40px;
+}
+
+.cta-load-more button{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--btn-primary);
+  color: var(--btn-primary);
+  font-size: var(--font-md);
+}

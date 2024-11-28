@@ -32,30 +32,36 @@
   gap: 5px;
   align-items: center;
 }
+
+.item-quantity p{
+  font-size: var(--font-md);
+}
+
 .item-quantity button{
   padding: 2px;
-  font-size: 3.5vmin;
+  font-size: var(--font-lg);
   background-color: #fff;
   border: none;
-  color: #3483FA;
+  color: var(--btn-primary);
 }
 
 .item-price{
-  color: #0CAF1D;
-  font-size: 3vmin;
+  color: var(--price-color);
+  font-size: var(--font-lg);
 }
 
 .name-item{
-  font-size: 2.5vmin;
+  font-size: var(--font-mdlg);
+  color: var(--p-color);
 }
 
 .item-total{
   padding: 20px;
-  font-size: 3vmin;
+  font-size: var(--font-lg);
 }
 
 .item-total strong{
-  color: #0CAF1D;
+  color: var(--price-color);
 }
 
 .cta-action-product{
@@ -67,7 +73,7 @@
 }
 
 .cta-action-product button{
-  font-size: 3vmin;
+  font-size: var(--font-lg);
   padding: 20px;
   width: 30%;
   border: none;
@@ -75,11 +81,11 @@
 }
 
 .buy-button{
-  background-color: #3483FA;
-  color: white;
+  background-color: var(--btn-primary);
+  color: #fff;
 }
 
 .home-button{
-  background-color: white;
-  color: #3483FA;
+  background-color: #fff;
+  color: var(--btn-primary);
 }

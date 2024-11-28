@@ -47,7 +47,7 @@
 }
 
 .product-img{
-  border-bottom: solid 1.5px #c2c2c2;
+  border-bottom: solid 1.5px var(--placeholder-color);
   padding: 5px;
 }
 
@@ -59,12 +59,12 @@
 
 
 .product-price{
-  color: #0CAF1D;
-  font-size: 2.5vmin
+  color: var(--price-color);
+  font-size: var(--font-mdlg);
 }
 
 .product-desc{
-  font-size: 2vmin;
+  font-size: var(--font-md);
 }
 
 /* LOAD MORE */
@@ -78,9 +78,8 @@
 .cta-button-more button{
   width: 100%;
   padding: 10px 0;
-  border: solid 2px #3483FA;
+  border: solid 2px var(--btn-primary);
   border-radius: 6px;
-  color: #3483FA;
-  background-color: #e8e8e8;
-  font-size: 3vmin;
+  color: var(--btn-primary);
+  font-size: var(--font-lg);
 }

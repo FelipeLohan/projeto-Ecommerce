@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #fff;
   width: 30%;
   margin: 0 auto;
   padding: 40px;
@@ -33,16 +33,20 @@
   border-width: 1px;
 }
 
+.forms-elements input::placeholder{
+  color: var(--placeholder-color);
+}
+
 .forms-elements button{
   width: 100%;
   padding: 15px;
   border-style: none;
-  font-size: 2.0vmin;
+  font-size: var(--font-md);
   border-radius: 6px;
-  background-color: #3483FA;
-  color: white;
+  background-color: var(--btn-primary);
+  color: #fff;
 }
 
 .error-input{
-  border: solid #ff3232;
+  border: solid var(--input-error-color);
 }

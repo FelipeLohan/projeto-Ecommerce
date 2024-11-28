@@ -1,1 +1,66 @@
 @import '../global/style-admin.css';
+
+.form-card-container{
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.form-title h2{
+  font-size: var(--font-lg);
+  color: var(--p-color);
+}
+
+.form-input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-input-container input{
+  padding: 15px;
+  border: 1px solid var(--placeholder-color);
+  border-radius: 6px;
+  outline: none;
+}
+
+#input-admin-descricao{
+  height: 200px;
+}
+
+.form-input-container input::placeholder{
+  font-size: var(--font-md);
+}
+
+.cta-save-cancel-container{
+  width: 40%;
+  padding: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-save-cancel-container button{
+  padding: 16px 30%;
+  border-style: none;
+  font-size: var(--font-md);
+  border-radius: 6px;
+}
+
+#cta-save{
+  background-color: var(--btn-primary);
+  color: #fff;
+}
+
+#cta-cancel{
+  background-color: #fff;
+  color: var(--btn-primary);
+  border: 1px solid ;
+}
